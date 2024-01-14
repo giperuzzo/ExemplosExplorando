@@ -1,0 +1,61 @@
+Versionamento de Código com Git e Github
+Elidiana Andrade  
+O que é versionamento de Código
+Software que controlam as versões de um arquivo ao longo do tempo.
+* Registra o histórico de atualizações de um arquivo;
+*Gerencia quais fra  as alterações, a data, o autor;
+* Organização, controle e segurança.
+CVCS Centralizado = apenas um servidor central 
+
+VCS Distribuido DVCS cada repositorio e duplicado localmente e assim permite vcs estarem editando mesmo que o servidor estiver fora do ar
+* Cada clone é como um backup;
+* Possibilita um fluxo de trabalho flexível;
+* Possibilidade de trabalhar sem conexão á rede.
+
+O que é o Git?
+Sistema de Controle de versão distribuído( o mais utilizado ultimamente)
+documentação do git é uma otima aliada ao aprendizado de todas suas funcionalidades
+{...} Gratuiro e Open Source (Código Aberto);
+Ramifivações(brqanching) e fusões(merging) eficientes;
+Leve e rápido.
+
+clonar - gitclone
+
+criar nova versão -  git commit
+git pull puxa as alterações do servidor para o repisotorio remoto
+git push empurra as alterações para o servidor
+
+O que é o Github   desde 2018 da Microsoft
+Plataorma de hospedagem de código para controle de versão com Git, e colaboração.
+* Comunidade Ativa;
+* utilizado mundialmente;
+* Mascote "Octacat".
+
+confirmar se esta configurado    git confit user.email   git config user.name
+******************ler sobre git config na documentação***********
+git config init.defaultBranch main 
+
+Criando e Clonando Repositórios locais:
+Existem duas formas de obter um repositório Git na sua máquina:
+ TRansformando um diretório local que não está sob controle de versão, num repositorio Git; (git init)
+ * Clonando um repositório Git existente. git clone
+
+ mkdir cria um arquivo
+  git repo local  git init 
+ cd.. volta uma pasta
+ cat config  verificar relaçao de arquivos
+
+------- salvando alterações no repositorio remoto----
+
+git status
+reade.md  markdow
+inserir todas as informações do seu projeto
+
+Comandos úteis para o dia a dia
+
+- git fetch , git pull git push  mkdir  git checkout  git merge git remove  git status git clone  git stash arqiva o branch removido 
+
+
+
+
+

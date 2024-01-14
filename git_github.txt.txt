@@ -1,0 +1,28 @@
+Versionamento de Código com Git e Github
+Elidiana Andrade  
+O que é versionamento de Código
+Software que controlam as versões de um arquivo ao longo do tempo.
+* Registra o histórico de atualizações de um arquivo;
+*Gerencia quais fra  as alterações, a data, o autor;
+* Organização, controle e segurança.
+CVCS Centralizado = apenas um servidor central 
+
+VCS Distribuido DVCS cada repositorio e duplicado localmente e assim permite vcs estarem editando mesmo que o servidor estiver fora do ar
+* Cada clone é como um backup;
+* Possibilita um fluxo de trabalho flexível;
+* Possibilidade de trabalhar sem conexão á rede.
+
+O que é o Git?
+Sistema de Controle de versão distribuído( o mais utilizado ultimamente)
+documentação do git é uma otima aliada ao aprendizado de todas suas funcionalidades
+{...} Gratuiro e Open Source (Código Aberto);
+Ramifivações(brqanching) e fusões(merging) eficientes;
+Leve e rápido.
+
+clonar - gitclone
+
+criar nova versão -  git commit
+git pull puxa as alterações do servidor para o repisotorio remoto
+git push empurra as alterações para o servidor
+
+
